@@ -9,7 +9,7 @@ define:{
 
   try {
     //FALTA CÓDIGO AQUI
-    await sequelize.authenticate();
+     sequelize.authenticate();
 
     console.log('Conectado com o ElephantSQL!');
   } catch (error) {
